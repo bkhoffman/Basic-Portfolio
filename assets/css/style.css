@@ -8,7 +8,7 @@ header{
   position: fixed;
   font-family: Georgia, Times, "Times New Roman", serif;
   padding: 0px;
-  margin: 0px 0px 100px 0px;
+  margin: -130px 0px 100px 0px;
   height: 100px;
   width: 100%;
   background-color: white;
@@ -49,8 +49,9 @@ a{
 
 .wrapper{
   width: 960px;
-  padding: 50px;
-  margin: 0px 0px 0px 100px;
+  height: auto;
+  padding: 10px;
+  margin: 130px 0px 100px 100px;
   border: solid 1px;
   border-color: #dddddd;
   background-color: white;
@@ -125,7 +126,60 @@ hr{
 
 #hangman{
   position: absolute;
-  height: 20px;
   width: 250px;
+  left: 151px;
+  top: 440px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+#rpg-game{
+  position: absolute;
+  width: 250px;
+  left: 441px;
+  top: 440px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+#trivia-game{
+  position: absolute;
+  width: 250px;
+  left: 731px;
+  top: 440px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+#rutgers{
+  position: absolute;
+  width: 250px;
+  left: 151px;
+  top: 730px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
+  background-color: #4aaaa5;
+}
+
+#rps{
+  position: absolute;
+  width: 250px;
+  left: 441px;
+  top: 730px;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  color: white;
   background-color: #4aaaa5;
 }
