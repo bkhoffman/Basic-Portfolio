@@ -25,7 +25,8 @@ a{
   color:#777777;
 }
 
-#about{
+#title{
+  font-family: Georgia, Times, "Times New Roman", serif;
   color: #4aaaa5;
 }
 
@@ -53,6 +54,7 @@ a{
   border: solid 1px;
   border-color: #dddddd;
   background-color: white;
+  overflow: auto;
 }
 
 hr{
@@ -79,7 +81,6 @@ hr{
   left: 0px;
   bottom: 0px;
   width: 100%;
-  
   padding: 30px 0px 10px 10px;
   border-top: 8px solid #4aaaa5;
   background-color: #666666; 
@@ -97,7 +98,7 @@ hr{
 
 #message{
   width: 100%;
-  padding: 7px;
+  padding: 50px;
   resize: vertical;
   border: solid 1px;
   border-color: #dddddd;
@@ -116,10 +117,15 @@ hr{
 }
 
 #port-image{
-  position: relative;
   float: left;
   margin: 20px;
   width: 250px;
   height: 250px;
-  overflow: visible;
+}
+
+#hangman{
+  position: absolute;
+  height: 20px;
+  width: 250px;
+  background-color: #4aaaa5;
 }
