@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 header{
   font-family: Georgia, Times, "Times New Roman", serif;
   padding: 0px;
@@ -5,7 +9,7 @@ header{
   height: 100px;
   width: 100%;
   background-color: white;
-  border-color:#cccccc;
+  border-bottom:solid 1px #cccccc;
   text-align: right;
 }
 
@@ -17,21 +21,21 @@ a{
   color:red;
 }
 
-h3{
+#about{
   color: #4aaaa5;
 }
 
 #nav{
-  padding: 40px 100px 0 0;
-  margin: -10px;
+  padding: 40px 200px 0 0;
+  margin: 0px;
 }
 
 #name{
-  font-size: 24px;
+  font-size: 15px;
   float: left;
-  width: 180px;
-  height: 60px;
-  padding: 20px 10px;
+  width: 270px;
+  height: 100px;
+  padding: 10px;
   margin-left: 100px;
   text-align: center;
   color: white;
@@ -39,10 +43,16 @@ h3{
 }
 
 .wrapper{
-  width: 70%;
+  width: 960px;
   padding: 50px;
   margin: 20px 0 0 100px;
+  border: solid 1px;
+  border-color: #dddddd;
   background-color: white;
+}
+
+hr{
+  margin-bottom: 20px;
 }
 
 #content{
@@ -52,8 +62,8 @@ h3{
 
 #about-image{
   float: left;
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   margin-right: 10px;
 }
 
@@ -63,7 +73,7 @@ h3{
   bottom: 0px;
   width: 100%;
   
-  padding: 30px 0px 0px 10px;
+  padding: 30px 0px 10px 10px;
   border-top: 8px solid #4aaaa5;
   background-color: #666666; 
   color: white;
