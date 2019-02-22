@@ -21,8 +21,16 @@ body{
   background-image: url(../images/darkness.png);
 }
 
+h2{
+  font-size: 24px;
+}
+
 a{
   color:#777777;
+}
+
+a:hover{
+  color: red;
 }
 
 #title{
