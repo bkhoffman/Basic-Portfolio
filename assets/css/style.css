@@ -12,11 +12,13 @@ header{
   background-color: white;
   border-bottom:solid 1px #cccccc;
   text-align: right;
+  z-index: 1;
 }
 body{
   margin: 0px 0px 0px 0px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
+  background-image: url(../images/darkness.png);
 }
 
 a{
@@ -89,14 +91,16 @@ hr{
   text-align: center;
 }
 
-#inputbox{
+.inputbox{
   width: 100%;
+  margin-top: 5px;
   padding: 7px;
   border: solid 1px;
   border-color: #dddddd;
 }
 
 #message{
+  margin-top: 5px;
   width: 100%;
   padding: 50px;
   resize: vertical;
@@ -116,66 +120,20 @@ hr{
   background-color: #4aaaa5;
 }
 
-#port-image{
+.image-container{
   float: left;
   margin: 20px;
+}
+
+.port-image{
   width: 250px;
   height: 250px;
 }
 
-#hangman{
-  position: absolute;
+.banner{
+  position: relative;
   width: 250px;
-  left: 151px;
-  top: 440px;
-  padding: 20px;
-  text-align: center;
-  width: 250px;
-  color: white;
-  background-color: #4aaaa5;
-}
-
-#rpg-game{
-  position: absolute;
-  width: 250px;
-  left: 441px;
-  top: 440px;
-  padding: 20px;
-  text-align: center;
-  width: 250px;
-  color: white;
-  background-color: #4aaaa5;
-}
-
-#trivia-game{
-  position: absolute;
-  width: 250px;
-  left: 731px;
-  top: 440px;
-  padding: 20px;
-  text-align: center;
-  width: 250px;
-  color: white;
-  background-color: #4aaaa5;
-}
-
-#rutgers{
-  position: absolute;
-  width: 250px;
-  left: 151px;
-  top: 730px;
-  padding: 20px;
-  text-align: center;
-  width: 250px;
-  color: white;
-  background-color: #4aaaa5;
-}
-
-#rps{
-  position: absolute;
-  width: 250px;
-  left: 441px;
-  top: 730px;
+  bottom: 85px;
   padding: 20px;
   text-align: center;
   width: 250px;
